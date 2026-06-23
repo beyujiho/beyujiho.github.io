@@ -4,36 +4,209 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>유지호 Portfolio</title>
-    <meta name="description" content="AI, HW, SW 포트폴리오">
+    <meta name="description" content="AI, HW, SW를 연결하는 엔지니어 유지호의 포트폴리오">
     <meta property="og:title" content="유지호 Portfolio">
-    <meta property="og:description" content="AI, HW, SW 포트폴리오">
+    <meta property="og:description" content="AI, HW, SW를 연결하는 엔지니어 유지호의 포트폴리오">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/pages/page-01.png">
-    <link rel="preload" as="image" href="assets/pages/page-01.png">
+    <link rel="preload" as="image" href="assets/pages/page-05.png">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <main class="portfolio" aria-label="유지호 포트폴리오 PDF 페이지">
-      <img class="page" src="assets/pages/page-01.png" alt="포트폴리오 표지" fetchpriority="high">
-      <img class="page" src="assets/pages/page-02.png" alt="프로필">
-      <img class="page" src="assets/pages/page-03.png" alt="프로젝트 목차">
-      <img class="page" src="assets/pages/page-04.png" alt="Drive Fusion System 프로젝트 표지">
-      <img class="page" src="assets/pages/page-05.png" alt="Drive Fusion System 프로젝트 개요">
-      <img class="page" src="assets/pages/page-06.png" alt="Drive Fusion System 문제 해결">
-      <img class="page" src="assets/pages/page-07.png" alt="Drive Fusion System 성과 및 회고">
-      <img class="page" src="assets/pages/page-08.png" alt="강화학습 기반 End-to-End 자율주행 회고 표지">
-      <img class="page" src="assets/pages/page-09.png" alt="강화학습 기반 End-to-End 자율주행 목표 및 결과">
-      <img class="page" src="assets/pages/page-10.png" alt="보상과 패널티 설계 구조">
-      <img class="page" src="assets/pages/page-11.png" alt="동적 장애물 실패 이유와 개선 방향">
-      <img class="page" src="assets/pages/page-12.png" alt="적재적소 프로젝트 표지">
-      <img class="page" src="assets/pages/page-13.png" alt="적재적소 프로젝트 개요">
-      <img class="page" src="assets/pages/page-14.png" alt="적재적소 문제 해결">
-      <img class="page" src="assets/pages/page-15.png" alt="적재적소 성과 및 회고">
-      <img class="page" src="assets/pages/page-16.png" alt="WEDGE 프로젝트 표지">
-      <img class="page" src="assets/pages/page-17.png" alt="WEDGE 프로젝트 개요">
-      <img class="page" src="assets/pages/page-18.png" alt="WEDGE 주요 기능">
-      <img class="page" src="assets/pages/page-19.png" alt="WEDGE 성과 및 회고">
-      <img class="page" src="assets/pages/page-20.png" alt="Thank you">
+    <header class="site-header">
+      <a class="brand" href="#top">유지호</a>
+      <nav class="nav" aria-label="주요 섹션">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#dfs">DFS</a>
+        <a href="#logistics">적재적소</a>
+        <a href="#wedge">WEDGE</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI · HW · SW Portfolio</p>
+          <h1>HW에서 SW까지 연결하는 엔지니어 유지호입니다.</h1>
+          <p class="lead">
+            전장 제어, 임베디드 보드, 강화학습, 시뮬레이션, 웹 서비스까지 실제 동작 흐름을
+            끝까지 연결하는 프로젝트를 수행했습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#projects">프로젝트 보기</a>
+            <a class="secondary-link" href="assets/portfolio.pdf" target="_blank" rel="noreferrer">PDF 열기</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/pages/page-05.png" alt="Drive Fusion System 프로젝트 화면">
+        </figure>
+      </section>
+
+      <section id="profile" class="section profile-section">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>AI와 하드웨어를 함께 다루는 개발자</h2>
+        </div>
+        <div class="profile-grid">
+          <article class="panel identity-panel">
+            <img src="assets/pages/page-02.png" alt="프로필 원본 페이지 미리보기">
+            <div>
+              <h3>유지호</h3>
+              <p>순천향대학교 전기공학 졸업</p>
+              <p>삼성 청년 SW AI아카데미(SSAFY)</p>
+            </div>
+          </article>
+          <article class="panel">
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li><span>2019.03 - 2025.03</span>순천향대 전기공학 졸업</li>
+              <li><span>2016.03 - 2019.02</span>성덕고등학교 인문계열 졸업</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Activity</h3>
+            <ul class="timeline">
+              <li><span>2025.06 - 2026.07</span>삼성 청년 SW AI아카데미(SSAFY)</li>
+              <li><span>2025.08</span>신한은행 해커톤</li>
+              <li><span>2022.02 - 2024.12</span>적응 신호 처리 연구실 학부 연구생</li>
+              <li><span>2024.07 - 2024.08</span>LG AImer</li>
+              <li><span>2023.07 - 2024.07</span>Google Developer Student Clubs</li>
+            </ul>
+          </article>
+          <article class="panel skill-panel">
+            <h3>Tech Stack</h3>
+            <div class="chips">
+              <span>Python</span>
+              <span>C</span>
+              <span>C++</span>
+              <span>TensorFlow</span>
+              <span>PyTorch</span>
+              <span>NumPy</span>
+              <span>OpenCV</span>
+              <span>STM32</span>
+              <span>Raspberry Pi</span>
+              <span>Arduino</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>대표 프로젝트</h2>
+        </div>
+        <div class="project-list">
+          <a class="project-card" href="#dfs">
+            <img src="assets/pages/page-05.png" alt="Drive Fusion System 개요">
+            <span>2026.01 - 2026.02</span>
+            <h3>Drive Fusion System</h3>
+            <p>CAN 통신 기반 전장제어와 비전 센서 기반 장애물 인식, 회피, 정지를 구현한 자율주행 시스템</p>
+          </a>
+          <a class="project-card" href="#logistics">
+            <img src="assets/pages/page-13.png" alt="적재적소 개요">
+            <span>2026.02 - 2026.04</span>
+            <h3>적재적소</h3>
+            <p>Isaac Sim 기반 디지털 트윈 환경에서 로봇팔 강화학습과 AGV 연동 물류 자동화를 구현</p>
+          </a>
+          <a class="project-card" href="#wedge">
+            <img src="assets/pages/page-17.png" alt="WEDGE 개요">
+            <span>2026.04 - 2026.06</span>
+            <h3>WEDGE</h3>
+            <p>실제 브라우저에서 사용자 흐름을 실행하고 UX/UI 불편 요소를 분석하는 AI Agent 서비스</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="dfs" class="project-detail">
+        <div class="detail-copy">
+          <p class="eyebrow">Project 1</p>
+          <h2>Drive Fusion System</h2>
+          <p>
+            CAN 통신 기반 분산 전장 제어 시스템을 구축하고, 비전 센서 기반 장애물 인식 및 차선 주행
+            제어를 결합해 자율주행 플랫폼을 구현했습니다.
+          </p>
+          <ul class="feature-list">
+            <li>CAN 통신 기반 ECU 간 데이터 송수신</li>
+            <li>RTOS 기반 초음파 센서 장애물 감지 및 급정거</li>
+            <li>비전 센서 기반 차선 인식 및 PID 조향 보정</li>
+            <li>통신 오류와 센서 이상 상황에 대응하는 Fail-Safe 로직</li>
+          </ul>
+        </div>
+        <figure class="detail-media">
+          <img src="assets/pages/page-06.png" alt="Drive Fusion System 문제 해결 화면">
+        </figure>
+      </section>
+
+      <section id="e2e-driving" class="project-detail reverse">
+        <div class="detail-copy">
+          <p class="eyebrow">Project 1.1</p>
+          <h2>End-to-End 자율주행 회고</h2>
+          <p>
+            PPO 기반으로 정적 장애물 회피 주행은 성공했지만, 동적 장애물이 추가되면서 관측 정보와 정책
+            구조의 한계를 확인했습니다.
+          </p>
+          <ul class="feature-list">
+            <li>정적 장애물 환경에서 약 50시간 학습 후 회피 주행 성공</li>
+            <li>동적 장애물 환경에서는 policy loss와 episode reward가 불안정하게 변동</li>
+            <li>향후 Optical Flow, LSTM/RNN 정책, 행동 분리 학습으로 개선 방향 도출</li>
+          </ul>
+        </div>
+        <figure class="detail-media">
+          <img src="assets/pages/page-10.png" alt="강화학습 보상과 패널티 설계 화면">
+        </figure>
+      </section>
+
+      <section id="logistics" class="project-detail">
+        <div class="detail-copy">
+          <p class="eyebrow">Project 2</p>
+          <h2>적재적소</h2>
+          <p>
+            컨베이어, 로봇팔, AGV의 상태를 실시간으로 모니터링하고, 로봇팔이 물류 박스를 AGV에 적재한 뒤
+            목적지로 이동시키는 스마트 물류 자동화 시스템을 구현했습니다.
+          </p>
+          <ul class="feature-list">
+            <li>PPO 기반 로봇팔 Pick & Place 강화학습 로직 설계</li>
+            <li>카메라 좌표와 그리퍼 좌표를 연결하는 아핀 변환 적용</li>
+            <li>Beam Search 기반 AGV 적재 위치 탐색</li>
+            <li>WebSocket 기반 로봇 상태 대시보드 연동</li>
+          </ul>
+        </div>
+        <figure class="detail-media">
+          <img src="assets/pages/page-14.png" alt="적재적소 문제 해결 화면">
+        </figure>
+      </section>
+
+      <section id="wedge" class="project-detail reverse">
+        <div class="detail-copy">
+          <p class="eyebrow">Project 3</p>
+          <h2>WEDGE</h2>
+          <p>
+            사용자가 입력한 URL을 실제 브라우저 환경에서 실행하고, 클릭, 입력, 페이지 이동 흐름을 자동으로
+            재현하며 UX 이탈 요인을 분석하는 서비스입니다.
+          </p>
+          <ul class="feature-list">
+            <li>Playwright 기반 브라우저 자동 실행</li>
+            <li>화면 캡처, DOM, 네트워크, 콘솔 로그 수집</li>
+            <li>Rule Engine과 AI 기반 UX 이탈 요인 탐지</li>
+            <li>RabbitMQ 기반 비동기 분석 구조로 분석 시간 약 52% 감소</li>
+          </ul>
+        </div>
+        <figure class="detail-media">
+          <img src="assets/pages/page-19.png" alt="WEDGE 성과 및 회고 화면">
+        </figure>
+      </section>
+
+      <section class="section contact-section">
+        <p class="eyebrow">Contact</p>
+        <h2>함께 문제를 끝까지 연결하고 해결하겠습니다.</h2>
+        <div class="contact-links">
+          <a href="tel:01038155452">010-3815-5452</a>
+          <a href="mailto:wndlwlgh@naver.com">wndlwlgh@naver.com</a>
+          <a href="assets/portfolio.pdf" target="_blank" rel="noreferrer">Portfolio PDF</a>
+        </div>
+      </section>
     </main>
   </body>
 </html>
